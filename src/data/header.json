@@ -1,0 +1,68 @@
+{
+  "header": {
+    "menu": [
+      {
+        "link": "hero",
+        "title": "Inicio",
+        "isDropdown": false
+      },
+      
+      {
+        "link": "author",
+        "title": "Acerca de mí",
+        "isDropdown": false
+      },
+      
+      {
+        "link": "contact",
+        "title": "Contáctanos",
+        "isDropdown": false
+      }
+    ]
+  },
+  "headerv2": {
+    "menu": [
+      {
+        "link": "hero",
+        "title": "Home",
+        "isDropdown": false
+      },
+      {
+        "link": "author",
+        "title": "About",
+        "isDropdown": false
+      },
+      {
+        "link": "books",
+        "title": "Books",
+        "isDropdown": false
+      },
+     
+      {
+        "link": "contact",
+        "title": "Contact",
+        "isDropdown": false
+      }
+    ]
+  },
+  "headerv3": {
+    "menu": [
+      {
+        "link": "hero",
+        "title": "Home",
+        "isDropdown": false
+      },
+
+      {
+        "link": "events",
+        "title": "Events",
+        "isDropdown": false
+      },
+      {
+        "link": "blog",
+        "title": "Blog",
+        "isDropdown": false 
+      }
+    ]
+  }
+}

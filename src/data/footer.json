@@ -1,0 +1,19 @@
+{
+  "footer": {
+    "copyright": "2026 Todos los derechos reservados.",
+    "menu": [
+      {
+        "link": "hero",
+        "title": "Inicio"
+      },
+      {
+        "link": "author",
+        "title": "Acerca de mí"
+      },
+      {
+        "link": "contact",
+        "title": "Contáctame"
+      }
+    ]
+  }
+}

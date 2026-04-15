@@ -1,0 +1,33 @@
+{
+  "achieve": {
+    "subtitle": "Manual de Estudio",
+    "title": "Recomendado para grupos pequeños enfocado en sanidad, identidad y propósito",
+    "image": "assets/images/achive2.jpg",
+    "achieveItem": [
+      {
+        "id": 1,
+        "icon": "assets/icons/ebook.svg",
+        "title": "Sanidad Interior",
+        "description": "Rompe ciclos de dolor, rechazo y deshonra que han marcado tu historia."
+      },
+      {
+        "id": 1,
+        "icon": "assets/icons/dice-multiple.svg",
+        "title": "Identidad Restaurada",
+        "description": "Descubre quién eres en Dios y camina con seguridad y valor."
+      },
+      {
+        "id": 1,
+        "icon": "assets/icons/goal.svg",
+        "title": "Comunidad y Apoyo",
+        "description": "Crece junto a otras mujeres en un ambiente seguro y transformador."
+      },
+      {
+        "id": 1,
+        "icon": "assets/icons/brand-target.svg",
+        "title": "Activación y Propósito",
+        "description": "Pasa de sobrevivir a vivir con intención, propósito y dirección."
+      }
+    ]
+  }
+}

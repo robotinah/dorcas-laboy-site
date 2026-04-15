@@ -1,0 +1,235 @@
+{
+  "gallery": {
+    "title": "Colección de Libros",
+    "subtitle": "Empieza Tu Transformación Hoy",
+    "galleryMenu": [
+      {
+        "title": "Todos"
+      },
+      {
+        "title": "Libros"
+      },
+      {
+        "title": "Manual"
+      },
+      {
+        "title": "Devocional"
+      },
+      {
+        "title": "English"
+      }
+    ],
+    "galleryItem": [
+      {
+        "image": "assets/images/book.png",
+        "title": "De la Deshonra a la Honra",
+        "subtitle": "Libros",
+        "id": "libros",
+        "content": "¿Algunas vez te has sentido sola, confundida, asustada, enojada, traicionada o rechazada? ¿Esa es tu batalla actual? La desilusión y sensación de abandono puede llegar a nuestras vidas por diferentes vías. Ya sea por una expectativa no cumplida, por un abandono o ausencia de algo o alguien en lo que teníamos puesta nuestra confianza; traición a nuestros sentimientos, frustración por no alcanzar metas soñadas, entre otras. En este libro encontrarás la historia de dos mujeres una es Agar y otra es la pastora Dorcas Laboy. A través de sus vivencias recibirás herramientas bíblicas, palabras de fe y promesas de Dios que serán medicina a tu alma. Finalmente descubrirás como Dios tiene el poder de llevarte de la deshonra a la honra.",
+        "clientMeta": [
+          {
+            "metaName": "Autora",
+            "metaContent": "Dorcas Laboy"
+          },
+          {
+            "metaName": "Categoría:",
+            "metaContent": "Restauración y Identidad en Cristo"
+          },
+          {
+            "metaName": "Publicado:",
+            "metaContent": "2020"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "¿Puede Dios restaurar mi historia?"
+          },
+          {
+            "title": "¿Es posible comenzar de nuevo sin cargar el pasado?"
+          },
+          {
+            "title": "¿Y si Dios aún tiene honra para tu vida?"
+          },
+          {
+            "title": "Descubre cómo Dios transforma el dolor en propósito"
+          }
+        ]
+      },
+      {
+        "image": "assets/images/book5.png",
+        "title": "Líberate de la Culpa",
+        "subtitle": "Libros",
+        "id": "libros",
+        "content": "Las mujeres, por lo regular, somos “expertas” en asumir las consecuencias de los errores de otros hasta resolver asuntos de los que no somos responsables. Si observamos el proceso de socialización una generación tras otra, la crianza, las funciones que se nos han adjudicado, interpretaciones bíblicas que escuchamos, con frecuencia ni cuenta nos damos de que estamos programadas para eso. Hoy yo vengo a decirte que una mujer extraordinaria, que sabe quién es en Dios, no asume las consecuencias de los errores de otros, ni les quita de encima la responsabilidad a quien cometió el error.En estas páginas vas a reconocer quién eres y vas a aprender cómo sacar de tu camino todas esas situaciones que te han estancado para alcanzar lo que Dios planeó para ti desde antes de tu concepción. De este momento en adelante, considérate una vencedora porque aprenderás estrategias emocionales y espirituales con las que expresarás todo aquello para lo que fuiste creada. Esta es tu oportunidad de fusionar tu identidad en Dios con la intelectualidad que Dios te dio en la herramienta perfecta para pararte en seco por tu vida. Nunca más asumirás las consecuencias de los errores de otros. A partir de hoy, ¡se trata de ti!.",
+        "clientMeta": [
+          {
+            "metaName": "Autora:",
+            "metaContent": "Dorcas Laboy"
+          },
+          {
+            "metaName": "Categoría:",
+            "metaContent": "Rompiendo Ciclos y Restaurando Identidad"
+          },
+          {
+            "metaName": "Publicado:",
+            "metaContent": "2022"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "Recupera tu identidad en Dios"
+          },
+          {
+            "title": "No asumirás más cargas que no te pertenecen"
+          },
+          {
+            "title": "Vivirás con propósito, sin culpa ni miedo"
+          },
+          {
+            "title": "Aprende a poner límites sin culpa"
+          }
+        ]
+      },
+      {
+        "image": "assets/images/book3.png",
+        "title": "No Soy Mujer de Segunda Categoría",
+        "subtitle": "Libros",
+        "id": "libros",
+        "content": "El mundo insiste en poner etiquetas: soltera, casada sin hijos, madre soltera, ama de casa, pastora, mujer abusada… etiquetas que buscan reducir el valor y silenciar la voz de tantas mujeres. Pero Dios nunca creó versiones inferiores. Este libro es un manifiesto de identidad y dignidad. Un llamado a romper con la mentira de la “segunda categoría” y abrazar la verdad eterna: fuiste creada a imagen y semejanza del Dios Todopoderoso, llena de propósito, belleza y poder. Aquí descubrirás que tu valor no depende de opiniones, fracasos o estándares culturales, sino de tu verdadero diseño divino. Cada capítulo levanta la voz contra la injusticia y celebra a la mujer en toda su plenitud: desde la soltera hasta la madre, desde la ama de casa hasta la pastora, desde la herida hasta la victoriosa. Este no es un libro de consuelo pasajero, es un grito de guerra espiritual: rompe las cadenas de la inferioridad, silencia las voces que intentan rebajarte, y levántate a declarar con convicción.",
+        "clientMeta": [
+          {
+            "metaName": "Autora:",
+            "metaContent": "Dorcas Laboy"
+          },
+          {
+            "metaName": "Categoría:",
+            "metaContent": "Crecimiento Espiritual para Mujeres"
+          },
+          {
+            "metaName": "Publicado:",
+            "metaContent": "2026"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "Rompe con la mentira de la “segunda categoría”"
+          },
+          {
+            "title": "Sana las heridas que marcaron tu identidad"
+          },
+          {
+            "title": "Levántate con convicción y propósito"
+          },
+          {
+            "title": "Fuiste creada con valor, no con etiquetas"
+          }
+        ]
+      },
+      {
+        "image": "assets/images/book2.png",
+        "title": "Devocional Líberate de la Culpa",
+        "subtitle": "Devocional",
+        "id": "devocional",
+        "content": "Este devocional nace de lo profundo del corazón de una mujer que, como tú, ha llorado en silencio, ha cargado culpas que no le pertenecen, y ha caminado con heridas invisibles mientras seguía adelante. A lo largo de estos 365 días, caminarás capítulo por capítulo con la Palabra de Dios en tu mano, una oración en tu boca y una nueva mentalidad en tu corazón. Cada devocional está diseñado para levantar tus ojos al cielo, afirmar tu identidad, soltar los pesos, y avanzar hacia tu destino con paso firme y alma libre. No corras. No te apresures. Este es un proceso diario de amor, redención y restauración. Respira. Lee. Ora. Escribe. Y deja que el Espíritu Santo te ministre de una manera única. Porque no fuiste creada para vivir en culpa… fuiste escogida para vivir en libertad.",
+        "clientMeta": [
+          {
+            "metaName": "Autora:",
+            "metaContent": "Dorcas Laboy"
+          },
+          {
+            "metaName": "Categoría:",
+            "metaContent": "Devocional"
+          },
+          {
+            "metaName": "Publicado:",
+            "metaContent": "2025"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "Encuentra descanso en la gracia de Dios"
+          },
+          {
+            "title": "Renueva tu mente con la verdad"
+          },
+          {
+            "title": "Camina en perdón y restauración diaria"
+          },
+          {
+            "title": "Experimenta una relación más profunda con Dios"
+          }
+        ]
+      },
+      {
+        "image": "assets/images/book.png",
+        "title": "Manual de la Deshonra a la Honra",
+        "subtitle": "Manual de Estudio",
+        "id": "manual",
+        "content": "La desilusión y el abandono pueden tocar nuestra vida de muchas formas: expectativas no cumplidas, relaciones rotas, promesas que no se dieron, o la ausencia de aquello en lo que habíamos puesto nuestra confianza. Estas experiencias dejan marcas profundas en el corazón y muchas veces nos hacen cargar con dolor en silencio. Este manual de estudio para hacerse individual o en grupos pequeños ha sido diseñado para acompañarte en ese proceso de sanidad, no sola, sino en comunidad. Cada sesión está pensada para crear un espacio seguro donde puedas abrir tu corazón, reflexionar y permitir que Dios transforme tu historia. Aquí descubrirás que tú le importas a Dios, y que Él tiene el poder de llevarte de la deshonra a la honra. Él desea que lo conozcas profundamente y que le permitas obrar en tu interior para experimentar una transformación real y duradera.",
+        "clientMeta": [
+          {
+            "metaName": "Autora:",
+            "metaContent": "Dorcas Laboy"
+          },
+          {
+            "metaName": "Category:",
+            "metaContent": "Manual de Estudio"
+          },
+          {
+            "metaName": "Publicado:",
+            "metaContent": "2025"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "Identificar y procesar el rechazo"
+          },
+          {
+            "title": "Sanar la desilusión"
+          },
+          {
+            "title": "Romper con la soledad emocional"
+          },
+          {
+            "title": "Restaurar tu identidad en Dios"
+          }
+        ]
+      },
+      {
+        "image": "assets/images/book_en.png",
+        "title": "From Dishonor To Honor",
+        "subtitle": "Libros",
+        "id": "english",
+        "content": "Have you ever felt lonely, confused, scared, angry, betrayed or rejected? Is that your current battle? The disappointment and feeling of abandonment can come into our lives in different ways. Whether it is because of an unfulfilled expectation, an abandonment or absence of something or someone in whom we had placed our trust; betrayal of our feelings, frustration for not achieving dreamed goals, among others. In this book you will find the story of two women, one is Hagar and the other is Pastor Dorcas Laboy. Through their experiences you will receive biblical tools, words of faith and promises from God that will be medicine to your soul. Finally you will discover how God has the power to take you from dishonor to honor.",
+        "clientMeta": [
+          {
+            "metaName": "Author:",
+            "metaContent": "Dorcas Laboy"
+          },
+          {
+            "metaName": "Category:",
+            "metaContent": "Inspirational"
+          },
+          {
+            "metaName": "Published On:",
+            "metaContent": "2024"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "Break free from the pain of rejection and abandonment"
+          },
+          {
+            "title": "Heal the wounds that have shaped your identity"
+          },
+          {
+            "title": "Rediscover your worth through God’s truth"
+          },
+          {
+            "title": "Rediscover your worth through God’s truth"
+          }
+        ]
+      }
+    ]
+  }
+}
