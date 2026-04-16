@@ -117,7 +117,7 @@ const Gallery = ({ isBg }) => {
                       data-bs-toggle="modal"
                       onClick={() => handleShow(data)}
                     >
-                      <a href="#">{data.title}</a>
+                      <a href="/">{data.title}</a>
                     </h2>
                     <p>{data.subtitle}</p>
                   </div>

@@ -6,12 +6,6 @@ import Version01 from "./components/pages/version-01";
 import AOS from "aos";
 import { useEffect } from "react";
 import "./assets/css/aos.css";
-import AllBlog from "./components/pages/all-blog";
-import AllEvent from "./components/pages/all-event";
-import BlogLeftSidebar from "./components/pages/blog-left-sidebar";
-import BlogRightSidebar from "./components/pages/blog-right-sidebar";
-import SingleBlog from "./components/pages/single-blog";
-import SingleEvent from "./components/pages/single-event";
 import footerData from "./data/footer.json";
 import headerData from "./data/header.json";
 
@@ -24,7 +18,7 @@ function ScrollToTop() {
   return null;
 }
 function App() {
-  const { header, headerv2, headerv3 } = headerData;
+  const { header } = headerData;
   const { footer } = footerData;
   useEffect(() => {
     AOS.init();
@@ -38,25 +32,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Version01 header={header} footer={footer} />} />
           <Route path="v1" element={<Version01 header={header} footer={footer} />} />
-     
-          <Route
-            path="single-blog"
-            element={<SingleBlog headerv3={headerv3} footer={footer} />}
-          />
-          <Route path="all-blog" element={<AllBlog headerv3={headerv3} footer={footer} />} />
-          <Route
-            path="single-event"
-            element={<SingleEvent headerv3={headerv3} footer={footer} />}
-          />
-          <Route path="all-event" element={<AllEvent headerv3={headerv3} footer={footer} />} />
-          <Route
-            path="blog-right-sidebar"
-            element={<BlogRightSidebar headerv3={headerv3} footer={footer} />}
-          />
-          <Route
-            path="blog-left-sidebar"
-            element={<BlogLeftSidebar headerv3={headerv3} footer={footer} />}
-          />
         </Routes>
       </BrowserRouter>
     </div>
