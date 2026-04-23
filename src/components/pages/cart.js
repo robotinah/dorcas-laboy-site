@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { CartContext } from "../../context/cart-context";
-import PayPalButton from "../../paypal-button";
+import PayPalButton from "../../PayPalButton";
 
 const Cart = () => {
   const { cart, total, removeFromCart, addToCart, decreaseQty } =
