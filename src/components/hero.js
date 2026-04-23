@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data/hero.json";
-import { useState } from "react";
+import React from "react";
 
 
 const Hero = ({ isBg }) => {
