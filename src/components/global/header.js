@@ -102,7 +102,6 @@ const Header = ({ header }) => {
               <div className="d-flex align-items-center ms-3">
               <CartIcon />
               </div>
-
             </Navbar.Collapse>
           </Navbar>
         </div>
