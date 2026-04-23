@@ -6,9 +6,12 @@ import { Button, Modal } from "react-bootstrap";
 import { FiCheck } from "react-icons/fi";
 import { IoCloseSharp } from "react-icons/io5";
 import imagesLoaded from "imagesloaded";
+import { useContext } from "react";
+import { CartContext } from "../cartcontext";
 
 
 const Gallery = ({ isBg }) => {
+  const { addToCart } = useContext(CartContext);
   const { gallery } = data;
 
   const [show, setShow] = useState(false);
@@ -120,6 +123,18 @@ const Gallery = ({ isBg }) => {
                       <a href="/">{data.title}</a>
                     </h2>
                     <p>{data.subtitle}</p>
+                    <button
+                    className="add-cart-btn mt-2"
+                    onClick={() => {
+                      addToCart({
+                        name: data.title,
+                        price: data.price || 20, // 👈 temporal si no tienes precio
+                        image: data.image
+                      });
+                    }}
+                  >
+                    Agregar al carrito
+                  </button>
                   </div>
                   <button
                     type="button"

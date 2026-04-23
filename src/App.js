@@ -1,7 +1,10 @@
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-import { PayPalScriptProvider } from "@paypal/react-paypal-js"; // IMPORTANTE
+import { PayPalScriptProvider } from "@paypal/react-paypal-js";
+import { CartProvider } from "./components/cartcontext"; // 
+
 import "./assets/css/margins-paddings.css";
 import Version01 from "./components/pages/version-01";
+import Cart from "./components/pages/cart"; 
 
 import AOS from "aos";
 import { useEffect } from "react";
@@ -29,16 +32,21 @@ function App() {
 
   return (
     <PayPalScriptProvider options={{ "client-id": "AVzJVAiw88PGYRUs1x5I6mDutIiWl99dpo5ur8xAeDZIqwDcG1HY-GyPqND-axzPL3r9zzlQ7wp96aH5" }}>
-      <div className="section-wrapper">
-        <div id="preLoader"></div>
-        <BrowserRouter>
-          <ScrollToTop />
-          <Routes>
-            <Route path="/" element={<Version01 header={header} footer={footer} />} />
-            <Route path="v1" element={<Version01 header={header} footer={footer} />} />
-          </Routes>
-        </BrowserRouter>
-      </div>
+      <CartProvider> {/*  ENVUELVE TODO */}
+        <div className="section-wrapper">
+          <div id="preLoader"></div>
+          <BrowserRouter>
+            <ScrollToTop />
+            <Routes>
+              <Route path="/" element={<Version01 header={header} footer={footer} />} />
+              <Route path="v1" element={<Version01 header={header} footer={footer} />} />
+              
+              {/*  NUEVA RUTA */}
+              <Route path="/cart" element={<Cart />} />
+            </Routes>
+          </BrowserRouter>
+        </div>
+      </CartProvider>
     </PayPalScriptProvider>
   );
 }
