@@ -7,7 +7,7 @@ import { FiCheck } from "react-icons/fi";
 import { IoCloseSharp } from "react-icons/io5";
 import imagesLoaded from "imagesloaded";
 import { useContext } from "react";
-import { CartContext } from "../cartcontext";
+import { CartContext } from "./cartcontext";
 
 
 const Gallery = ({ isBg }) => {
