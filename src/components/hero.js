@@ -1,6 +1,5 @@
 import React from "react";
 import data from "../data/hero.json";
-import PayPalButton from "./PayPalButton";
 import { useState } from "react";
 
 
@@ -29,17 +28,6 @@ const Hero = ({ isBg }) => {
               </div>
               <h1 className="display-4 mb-4 text-capitalize">{herov1.title}</h1>
               <p className="text-muted mb-5 fs-5">{herov1.description}</p>
-              <button
-                className="btn btn-dark rounded-pill px-4 py-2"
-                onClick={() => setShowPayPal(true)}
-              >
-                Ordena tu libro hoy
-              </button>
-              {showPayPal && (
-              <div className="mt-3">
-                <PayPalButton />
-              </div>
-              )}
             </div>
           </div>
           <div className="col-lg-6">
