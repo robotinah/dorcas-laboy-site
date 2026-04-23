@@ -130,11 +130,11 @@ const Gallery = ({ isBg }) => {
                     onClick={() => {
                       addToCart({
                         name: data.title,
-                        price: data.price || 20,
+                        price: Number(data.price),
                         image: data.image
                       });
 
-                      navigate("/cart"); // 🔥 AHORA SÍ pasa algo visible
+                      alert("🛒 Añadido al carrito");
                     }}
                   >
                     Agregar al carrito

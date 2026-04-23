@@ -4,6 +4,7 @@ import { GoChevronDown } from "react-icons/go";
 import { Link as PageLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import { siteLogo } from "../../global";
+import CartIcon from "../carticon";
 
 const Header = ({ header }) => {
   const [isActive, setActive] = useState(false);
@@ -98,6 +99,10 @@ const Header = ({ header }) => {
                   )
                 )}
               </ul>
+              <div className="d-flex align-items-center ms-3">
+              <CartIcon />
+              </div>
+
             </Navbar.Collapse>
           </Navbar>
         </div>
