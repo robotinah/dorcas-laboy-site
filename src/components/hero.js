@@ -5,7 +5,6 @@ import { useState } from "react";
 
 const Hero = ({ isBg }) => {
   const { herov1 } = data;
-  const [showPayPal, setShowPayPal] = useState(false);
   return (
     // <!-- ========== Hero section start ========== -->
     <section

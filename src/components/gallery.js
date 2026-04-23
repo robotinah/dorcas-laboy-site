@@ -8,13 +8,11 @@ import { IoCloseSharp } from "react-icons/io5";
 import imagesLoaded from "imagesloaded";
 import { useContext } from "react";
 import { CartContext } from "./cartcontext";
-import { useNavigate } from "react-router-dom";
 
 
 const Gallery = ({ isBg }) => {
   const { addToCart } = useContext(CartContext);
   const { gallery } = data;
-  const navigate = useNavigate();
 
   const [show, setShow] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
