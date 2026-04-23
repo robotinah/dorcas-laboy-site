@@ -8,11 +8,13 @@ import { IoCloseSharp } from "react-icons/io5";
 import imagesLoaded from "imagesloaded";
 import { useContext } from "react";
 import { CartContext } from "./cartcontext";
+import { useNavigate } from "react-router-dom";
 
 
 const Gallery = ({ isBg }) => {
   const { addToCart } = useContext(CartContext);
   const { gallery } = data;
+  const navigate = useNavigate();
 
   const [show, setShow] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
@@ -128,9 +130,11 @@ const Gallery = ({ isBg }) => {
                     onClick={() => {
                       addToCart({
                         name: data.title,
-                        price: data.price || 20, // 👈 temporal si no tienes precio
+                        price: data.price || 20,
                         image: data.image
                       });
+
+                      navigate("/cart"); // 🔥 AHORA SÍ pasa algo visible
                     }}
                   >
                     Agregar al carrito
